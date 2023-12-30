@@ -1,2 +1,2 @@
-#HTML and CSS: Responsive
+# HTML and CSS: Responsive
 i learning RESPONSIVE in css 
