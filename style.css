@@ -1,0 +1,89 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.step-one {
+  display: flex;
+  flex-direction: row;
+}
+.red {
+  width: 150rem;
+  height: 24rem;
+  background-color: red;
+}
+.blue {
+  width: 150rem;
+  height: 24rem;
+  background-color: blue;
+}
+.green {
+  width: 150rem;
+  height: 24rem;
+  background-color: green;
+}
+.step-tow {
+  display: flex;
+  flex-direction: row;
+}
+.yellow {
+  width: 150rem;
+  height: 24.3rem;
+  background-color: yellow;
+}
+.brown {
+  width: 150rem;
+  height: 24.3rem;
+  background-color: brown;
+}
+.pink {
+  width: 150rem;
+  height: 24.3rem;
+  background-color: pink;
+}
+
+@media (max-width: 765px) {
+  .step-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .red {
+    width: 47.8rem;
+    height: 30rem;
+  }
+  .blue {
+    width: 47.8rem;
+    height: 30rem;
+    background-color: blue;
+  }
+  .green {
+    width: 47.8rem;
+    height: 30rem;
+    background-color: green;
+  }
+  .step-tow {
+    display: flex;
+    flex-direction: column;
+  }
+  .yellow {
+    width: 47.8rem;
+    height: 30rem;
+    background-color: yellow;
+  }
+  .brown {
+    width: 47.8rem;
+    height: 30rem;
+    background-color: brown;
+  }
+  .pink {
+    width: 47.8rem;
+    height: 30rem;
+    background-color: pink;
+  }
+}
